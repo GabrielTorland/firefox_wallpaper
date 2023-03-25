@@ -18,3 +18,5 @@ Personalize your Firefox browser's home page, new tab, and private browsing tab 
 
 5. Restart Firefox to see the custom styling in effect.
 
+## Example
+![Alt text](https://github.com/GabrielTorland/firefox_wallpaper/example.png "Firefox Homepage")
