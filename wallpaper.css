@@ -1,0 +1,22 @@
+@-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
+    /* Change the color and text-shadow of the elements in the click-target-container and top-sites-list */
+    .click-target-container *,
+    .top-sites-list * {
+        color: #fff !important;
+        text-shadow: 2px 2px 2px #222 !important;
+    }
+
+    /* Add a custom background image to the body */
+    body::before {
+        content: "";
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: url(img/city.jpg) no-repeat center;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
